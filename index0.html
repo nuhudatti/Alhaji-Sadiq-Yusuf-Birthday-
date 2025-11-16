@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Alhaji Sadiq Yusuf | Deputy Chief of Staff, Niger State</title>
+    <meta name="description" content="Celebrate Alhaji Sadiq Yusuf’s birthday — a pillar of honor, service, and family. From the Masaba Royal Family to Deputy Chief of Staff, his legacy inspires generations.">
+    <meta name="keywords" content="Alhaji Sadiq Yusuf, Niger State, Birthday, Deputy Chief of Staff, Masaba Royal Family, Legacy, Family, Service">
+    <meta name="author" content="Shaffi Family / Nuhu Muhammad Datti">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nuhudatti.github.io/Alhaji-Sadiq-Yusuf-Birthday">
+    <meta property="og:title" content="Happy Birthday Alhaji Sadiq Yusuf | Deputy Chief of Staff, Niger State">
+    <meta property="og:description" content="Celebrate Alhaji Sadiq Yusuf’s birthday — a pillar of honor, service, and family. From the Masaba Royal Family to Deputy Chief of Staff, his legacy inspires generations.">
+    <meta property="og:image" content="https://nuhudatti.github.io/Alhaji-Sadiq-Yusuf-Birthday/meta.png">
+    
+
+
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nuhudatti.github.io/Alhaji-Sadiq-Yusuf-Birthday">
+    <meta property="twitter:title" content="Happy Birthday Alhaji Sadiq Yusuf | Deputy Chief of Staff, Niger State">
+    <meta property="twitter:description" content="Celebrate Alhaji Sadiq Yusuf’s birthday — a pillar of honor, service, and family. From the Masaba Royal Family to Deputy Chief of Staff, his legacy inspires generations.">
+    <meta property="twitter:image" content="https://nuhudatti.github.io/Alhaji-Sadiq-Yusuf-Birthday/meta.png">
+    
+    <!-- Fallback favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'royal-blue': '#1E3A8A',
+                        'celebration-gold': '#D4AF37',
+                        'cream': '#F5F0E6',
+                        'deep-blue': '#0F1B4D',
+                        'accent-green': '#059669',
+                    },
+                    fontFamily: {
+                        'heading': ['Cormorant Garamond', 'serif'],
+                        'body': ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'body', sans-serif;
+            background-color: #F5F0E6;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        .section {
+            padding: 8rem 2rem;
+        }
+        .gold-divider {
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+            margin: 3rem auto;
+            width: 80%;
+        }
+        .timeline-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #D4AF37;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            background: linear-gradient(to bottom, #D4AF37, transparent);
+            height: 100%;
+            z-index: 1;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(30, 58, 138, 0.85), rgba(15, 27, 77, 0.9)), 
+                         url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%231E3A8A"/><path d="M20,20 Q50,10 80,20 T100,50 T80,80 T50,90 T20,80 T0,50 T20,20 Z" fill="none" stroke="%23D4AF37" stroke-width="0.5" opacity="0.3"/></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+        .floating {
+            animation: floating 8s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .scale-in {
+            transform: scale(0.95);
+            opacity: 0;
+            transition: transform 1s ease, opacity 1s ease;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+        .is-visible {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+        .gallery-item img {
+            transition: transform 0.5s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 1rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover .gallery-caption {
+            transform: translateY(0);
+        }
+        .signature {
+            font-family: 'Cormorant Garamond', cursive;
+            font-size: 2.5rem;
+            color: #D4AF37;
+            opacity: 0.9;
+            transition: all 0.3s ease;
+        }
+        .signature:hover {
+            opacity: 1;
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+        }
+        .cosmic-star {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.8);
+            animation: twinkle 5s infinite;
+        }
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+        .birthday-confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            opacity: 0.8;
+            animation: confetti-fall 8s linear infinite;
+        }
+        @keyframes confetti-fall {
+            0% { transform: translateY(-100px) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+        @media (max-width: 768px) {
+            .section {
+                padding: 4rem 1rem;
+            }
+            .timeline-dot, .timeline-line {
+                left: 30px;
+            }
+            .timeline-content {
+                margin-left: 60px;
+            }
+        }
+    </style>
+</head>
+<body class="relative">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-royal-blue bg-opacity-90 backdrop-blur-sm py-4 transition-all duration-300">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-celebration-gold font-heading text-2xl font-semibold">Alhaji Sadiq Yusuf</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#hero" class="text-cream hover:text-celebration-gold transition">Home</a>
+                <a href="#journey" class="text-cream hover:text-celebration-gold transition">Journey</a>
+                <a href="#family" class="text-cream hover:text-celebration-gold transition">Family</a>
+                <a href="#legacy" class="text-cream hover:text-celebration-gold transition">Legacy</a>
+                <a href="#tribute" class="text-cream hover:text-celebration-gold transition">Tribute</a>
+            </div>
+            <!-- <button class="md:hidden text-cream">
+                <i class="fas fa-bars text-xl"></i>
+            </button> -->
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden hero-bg text-cream">
+        <!-- Confetti Animation -->
+        <div id="confetti-container" class="absolute top-0 left-0 w-full h-full overflow-hidden"></div>
+        
+        <!-- Cosmic Stars -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+            <div class="cosmic-star" style="top: 15%; left: 10%; width: 4px; height: 4px; animation-delay: 0s;"></div>
+            <div class="cosmic-star" style="top: 25%; left: 80%; width: 3px; height: 3px; animation-delay: 1s;"></div>
+            <div class="cosmic-star" style="top: 40%; left: 40%; width: 5px; height: 5px; animation-delay: 2s;"></div>
+            <div class="cosmic-star" style="top: 60%; left: 70%; width: 4px; height: 4px; animation-delay: 3s;"></div>
+            <div class="cosmic-star" style="top: 75%; left: 20%; width: 3px; height: 3px; animation-delay: 4s;"></div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+            <div class="absolute top-1/4 left-1/5 floating">
+                <i class="fas fa-hands-helping text-celebration-gold opacity-20 text-6xl"></i>
+            </div>
+            <div class="absolute top-1/3 right-1/4 floating" style="animation-delay: 1.5s;">
+                <i class="fas fa-landmark text-celebration-gold opacity-20 text-5xl"></i>
+            </div>
+            <div class="absolute bottom-1/4 left-1/3 floating" style="animation-delay: 2.5s;">
+                <i class="fas fa-heart text-celebration-gold opacity-20 text-4xl"></i>
+            </div>
+            <div class="absolute bottom-1/3 right-1/5 floating" style="animation-delay: 3.5s;">
+                <i class="fas fa-star text-celebration-gold opacity-20 text-5xl"></i>
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-4 text-center z-10">
+            <div class="mb-8">
+                <h1 class="text-5xl md:text-7xl font-heading font-bold mb-2 fade-in">
+                    Happy Birthday
+                </h1>
+                <h2 class="text-4xl md:text-6xl font-heading font-bold mb-6 fade-in" style="animation-delay: 0.2s">
+                    Alhaji Sadiq Yusuf
+                </h2>
+            </div>
+            
+            <div class="w-32 h-1 bg-celebration-gold mx-auto mb-8 fade-in" style="animation-delay: 0.4s"></div>
+            <p class="text-xl md:text-2xl italic max-w-3xl mx-auto mb-10 fade-in" style="animation-delay: 0.6s">
+                "On this special day, we honor a man whose leadership illuminates paths and whose heart embraces all. May your light continue to shine across Niger State and beyond."
+            </p>
+            <p class="text-lg max-w-2xl mx-auto mb-12 fade-in" style="animation-delay: 0.8s">
+                Deputy Chief of Staff • Niger State • Pillar of Service
+            </p>
+            
+            <!-- <div class="blockchain-timestamp bg-deep-blue bg-opacity-70 border border-celebration-gold border-opacity-30 inline-block px-6 py-3 rounded-full fade-in" style="animation-delay: 1s">
+                <i class="fas fa-link mr-2"></i>
+                Immortalized on Ethereum: 0x8a3dF729c1bE372fc7930f9F7a1cD5E5dE9b4A2c • AUG 4, 2025
+            </div> -->
+            
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <a href="#journey" class="text-cream text-3xl">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section bg-cream">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-heading font-semibold text-royal-blue mb-8 fade-in">
+                    Celebrating A Legacy of Honor, Service, and Family
+                </h2>
+                <div class="gold-divider"></div>
+                <p class="text-lg mb-6 fade-in">
+                    Today, we celebrate not just the passing of another year, but the illumination of a life dedicated to service, family, and the betterment of Niger State. Your journey embodies the perfect harmony of royal heritage and modern leadership.
+                </p>
+                <p class="text-lg fade-in">
+                    From the esteemed Masaba Royal Family of Bida to your current role as Deputy Chief of Staff, you have woven a tapestry of professional excellence and personal integrity that continues to inspire generations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey of Service -->
+    <section id="journey" class="py-16 bg-royal-blue bg-opacity-5">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-heading font-semibold text-royal-blue text-center mb-16 fade-in">
+                A Journey of Service
+            </h2>
+            
+            <div class="relative max-w-4xl mx-auto">
+                <!-- Timeline line -->
+                <div class="timeline-line"></div>
+                
+                <!-- Timeline items -->
+                <div class="relative mb-16 timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content pl-4 md:pl-0 fade-in">
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="text-celebration-gold font-bold mb-2">Roots of Integrity</div>
+                            <h3 class="text-xl font-heading font-semibold mb-2">Royal Heritage</h3>
+                            <p>Born into the esteemed Masaba Royal Family of Bida, Alhaji Sadiq Yusuf's foundations were laid in Northern Nigeria's rich cultural heritage, steeped in values of honor and community service.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative mb-16 timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content pl-4 md:pl-0 md:text-right fade-in">
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="text-celebration-gold font-bold mb-2">Call to Service</div>
+                            <h3 class="text-xl font-heading font-semibold mb-2">Dedication to Community</h3>
+                            <p>With humility and dedication, Alhaji Sadiq dedicated himself to public service, building relationships and trust within his community through quiet determination and genuine care for people.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative mb-16 timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content pl-4 md:pl-0 fade-in">
+                        <div class="bg-white shadow-lg rounded-lg p-6">
+                            <div class="text-celebration-gold font-bold mb-2">June 7, 2023</div>
+                            <h3 class="text-xl font-heading font-semibold mb-2">Ascension to Leadership</h3>
+                            <p>Alhaji Sadiq Yusuf was sworn in as Deputy Chief of Staff to the Governor of Niger State, a testament to his integrity, capabilities, and dedication to public service.</p>
+                            <div class="mt-4 p-4 bg-royal-blue bg-opacity-10 rounded border-l-4 border-celebration-gold italic">
+                                "Governor Umar Bago appoints Sadiq Yusuf as Deputy Chief of Staff, citing his capacity and integrity." - Official State Announcement
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative mb-16 timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content pl-4 md:pl-0 md:text-right fade-in">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+            <div class="text-celebration-gold font-bold mb-2">November 16, 2025</div>
+            <h3 class="text-xl font-heading font-semibold mb-2">Birthday Celebration</h3>
+            <p>Today, we celebrate Alhaji Sadiq Yusuf’s birthday, honoring his life, leadership, and unwavering dedication to service, family, and community.</p>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Legacy -->
+    <section id="family" class="section bg-royal-blue text-cream">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-6 fade-in">
+                    The Heart of Legacy
+                </h2>
+                <div class="gold-divider"></div>
+                <p class="max-w-3xl mx-auto text-xl fade-in">
+                    Family: The Eternal Foundation
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div class="bg-deep-blue bg-opacity-50 p-8 rounded-lg scale-in">
+                    <div class="text-center mb-6">
+                        <div class="text-celebration-gold text-4xl mb-4">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="text-2xl font-heading font-semibold">Sacred Union</h3>
+                    </div>
+                    <p class="text-lg mb-4">
+                        The sacred union of Alhaji Sadiq Yusuf and his beloved wife represents the foundation upon which their cosmic legacy is built. Their marriage, celebrated with traditional Nupe honors, created a union that would become their strongest foundation.
+                    </p>
+                </div>
+                
+                <div class="bg-deep-blue bg-opacity-50 p-8 rounded-lg scale-in">
+                    <div class="text-center mb-6">
+                        <div class="text-celebration-gold text-4xl mb-4">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="text-2xl font-heading font-semibold">A New Star in the Cosmos</h3>
+                    </div>
+                    <p class="text-lg mb-4">
+                        Born on August 4, 2025, the Yusuf legacy entered a new chapter with the birth of a baby boy. This precious life represents the continuation of a legacy built on honor, dignity, and service - a new light in the cosmic journey of the family.
+                    </p>
+                    <!-- <div class="mt-4 p-4 bg-celebration-gold bg-opacity-20 rounded border border-celebration-gold border-opacity-30">
+                        <p class="text-center font-semibold">Naming Ceremony: August 19, 2025</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformative Leadership -->
+    <section id="legacy" class="section bg-cream">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-semibold text-royal-blue mb-6 fade-in">
+                    Transformative Leadership
+                </h2>
+                <div class="gold-divider"></div>
+                <p class="max-w-3xl mx-auto text-xl text-royal-blue fade-in">
+                    Impactful initiatives shaping Niger State's future
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden scale-in">
+                    <div class="h-48 bg-royal-blue flex items-center justify-center">
+                        <i class="fas fa-road text-celebration-gold text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-heading font-semibold mb-3">Infrastructure Development</h3>
+                        <p>Working with ACReSAL team for Mokwa road projects and other critical infrastructure across Niger State.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden scale-in">
+                    <div class="h-48 bg-royal-blue flex items-center justify-center">
+                        <i class="fas fa-handshake text-celebration-gold text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-heading font-semibold mb-3">Strategic Partnerships</h3>
+                        <p>Collaborating with Hon. Saidu Musa Abdul and Arab Contractors Nigeria Limited for development projects.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden scale-in">
+                    <div class="h-48 bg-royal-blue flex items-center justify-center">
+                        <i class="fas fa-heartbeat text-celebration-gold text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-heading font-semibold mb-3">Healthcare Initiatives</h3>
+                        <p>Visiting the Niger State Contributory Health Agency (NiCare) to improve healthcare delivery.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="mt-16 max-w-4xl mx-auto bg-royal-blue text-cream p-8 rounded-lg shadow-lg fade-in">
+                <div class="text-center">
+                    <div class="inline-flex items-center justify-center bg-celebration-gold text-royal-blue w-16 h-16 rounded-full mb-4">
+                        <i class="fas fa-quote-left text-2xl"></i>
+                    </div>
+                    <p class="text-xl italic mb-4">
+                        "In November 2024, Governor Bago publicly celebrated Sadiq on his birthday, acknowledging his transformative leadership and impact on public service delivery in Niger State."
+                    </p>
+                    <p class="font-heading text-lg">- Governor Mohammed Umar Bago</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Birthday Tribute -->
+    <!-- <section id="tribute" class="py-16 bg-royal-blue bg-opacity-5">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-heading font-semibold text-royal-blue text-center mb-16 fade-in">
+                A Cosmic Birthday Celebration
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center scale-in">
+                    <div class="text-celebration-gold text-5xl mb-4">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold mb-3">Integrity</h3>
+                    <p>Your unwavering moral compass guides all who follow.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center scale-in">
+                    <div class="text-celebration-gold text-5xl mb-4">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold mb-3">Compassion</h3>
+                    <p>Your genuine care for people transforms communities.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center scale-in">
+                    <div class="text-celebration-gold text-5xl mb-4">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold mb-3">Legacy</h3>
+                    <p>Your impact will echo through generations to come.</p>
+                </div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg fade-in">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-heading font-semibold text-royal-blue">Eternal Preservation</h3>
+                    <p class="text-lg mt-2">This cosmic tribute is immortalized on the blockchain, ensuring your legacy will shine forever in the digital universe</p>
+                </div>
+                
+                <div class="bg-deep-blue text-cream p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
+                        <div>
+                            <h4 class="font-semibold">Legacy Transaction ID</h4>
+                            <p class="font-mono text-sm mt-1">0x8a3dF729c1bE372fc7930f9F7a1cD5E5dE9b4A2c</p>
+                        </div>
+                        <div class="mt-4 md:mt-0 text-center md:text-right">
+                            <p>Timestamp: 2025-08-04 12:34:56 UTC</p>
+                            <p>Block: #18,472,956</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-center text-celebration-gold">
+                        <i class="fas fa-lock mr-2"></i>Immutably stored on the Ethereum blockchain for eternity
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Final Tribute -->
+    <section class="py-20 bg-royal-blue text-cream">
+    <div class="container mx-auto px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-celebration-gold text-6xl mb-6 fade-in">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star mx-4"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            
+            <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-8 fade-in">
+                A Birthday Celebration from the Shaffi Family
+            </h2>
+            
+            <p class="text-xl mb-6 fade-in">
+                Today, the Shaffi family comes together to celebrate Alhaji Sadiq Yusuf — a pillar of honor, service, and family. Your life continues to inspire us, and your legacy shines brighter with each passing year.
+            </p>
+            
+            <p class="text-xl mb-10 fade-in">
+                On this special day, we rejoice in your achievements, your unwavering dedication to the community, and the love that binds our family together. May Allah bless you with health, joy, and countless more cherished moments with your loved ones.
+            </p>
+            
+            <div class="signature inline-block text-3xl fade-in">— The Shaffi Family</div>
+            <p class="mt-4 text-lg fade-in">With love and reverence • November 16, 2025</p>
+            <p class="mt-2 fade-in">Minna, Niger State, Nigeria</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-deep-blue text-cream py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-heading font-semibold mb-2">Alhaji Sadiq Yusuf</h3>
+                    <p class="opacity-75">Deputy Chief of Staff, Niger State</p>
+                </div>
+                
+                <div class="flex space-x-6 text-xl">
+                    <a href="#" class="hover:text-celebration-gold transition"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-celebration-gold transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-celebration-gold transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-celebration-gold transition"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="mt-12 pt-8 border-t border-royal-blue text-center text-sm opacity-75">
+                <p>This digital tribute was created to honor the life and legacy of Alhaji Sadiq Yusuf</p> <br>
+                <p class="mt-2">All information verified through public records as of August 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize GSAP and ScrollTrigger
+        gsap.registerPlugin(ScrollTrigger);
+        
+        // Create confetti
+        function createConfetti() {
+            const container = document.getElementById('confetti-container');
+            const colors = ['#D4AF37', '#1E3A8A', '#059669', '#FFFFFF', '#F5F0E6'];
+            
+            for (let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'birthday-confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.animationDelay = Math.random() * 8 + 's';
+                confetti.style.width = Math.random() * 10 + 5 + 'px';
+                confetti.style.height = Math.random() * 10 + 5 + 'px';
+                container.appendChild(confetti);
+            }
+        }
+        
+        // Set up animations for all elements with animation classes
+        document.addEventListener('DOMContentLoaded', function() {
+            // Create confetti
+            createConfetti();
+            
+            // Animate elements with .fade-in class
+            gsap.utils.toArray('.fade-in').forEach(el => {
+                gsap.fromTo(el, 
+                    { opacity: 0, y: 30 },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 1,
+                        scrollTrigger: {
+                            trigger: el,
+                            start: "top 85%",
+                            toggleActions: "play none none none"
+                        }
+                    }
+                );
+            });
+            
+            // Animate elements with .scale-in class
+            gsap.utils.toArray('.scale-in').forEach(el => {
+                gsap.fromTo(el, 
+                    { opacity: 0, scale: 0.95 },
+                    {
+                        opacity: 1,
+                        scale: 1,
+                        duration: 0.8,
+                        scrollTrigger: {
+                            trigger: el,
+                            start: "top 90%",
+                            toggleActions: "play none none none"
+                        }
+                    }
+                );
+            });
+            
+            // Timeline items animation
+            gsap.utils.toArray('.timeline-item').forEach((item, index) => {
+                gsap.fromTo(item, 
+                    { opacity: 0, x: index % 2 === 0 ? -50 : 50 },
+                    {
+                        opacity: 1,
+                        x: 0,
+                        duration: 1,
+                        scrollTrigger: {
+                            trigger: item,
+                            start: "top 90%",
+                            toggleActions: "play none none none"
+                        }
+                    }
+                );
+            });
+            
+            // Floating animation for elements
+            gsap.utils.toArray('.floating').forEach(el => {
+                gsap.to(el, {
+                    y: 20,
+                    duration: 3,
+                    repeat: -1,
+                    yoyo: true,
+                    ease: "sine.inOut"
+                });
+            });
+            
+            // Header scroll effect
+            const header = document.querySelector('nav');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('shadow-lg');
+                    header.classList.add('py-3');
+                } else {
+                    header.classList.remove('shadow-lg');
+                    header.classList.remove('py-3');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
